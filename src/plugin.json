@@ -1,0 +1,37 @@
+{
+  "name": "Blueflood",
+  "id": "grafana-blueflood-datasource",
+  "type": "datasource",
+
+  "staticRoot": ".",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/simplejson/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": true,
+
+  "info": {
+    "description": "blueflood datasource",
+    "author": {
+      "name": "Rackspace Metrics",
+      "url": "http://blueflood.io"
+    },
+    "logos": {
+      "small": "img/bf_200.png",
+      "large": "img/bf_400.png"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/rackerlabs/blueflood"},
+      {"name": "Apache License", "url": "https://github.com/rackerlabs/blueflood/blob/master/LICENSE"}
+    ],
+    "version": "0.0.1",
+    "updated": "2016-05-13"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
