@@ -5,6 +5,6 @@ Blueflood Plugin source code for Grafana (Using Graphite - API).
 cd blueflood-grafana-graphite_api-plugin-src
 npm install</br>
 npm install -g grunt-cli</br>
-grunt
+grunt</br>
 cp -r ./dist /var/lib/grafana/plugins
 
