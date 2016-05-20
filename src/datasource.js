@@ -9,7 +9,7 @@ import * as dateMath from 'app/core/utils/datemath';
 /** @ngInject */
 export class BluefloodDatasource {
     constructor(instanceSettings, $q, backendSrv, templateSrv) {
-        this.url = instanceSettings.jsonData.bfUrl;
+        this.url = instanceSettings.url;
         this.name = instanceSettings.name;
         this.render_method = instanceSettings.render_method || 'POST';
         this._seriesRefLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
