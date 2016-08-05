@@ -51,7 +51,7 @@ npm install -g grunt-cli</br>
 grunt</br>
 ```
 
-The built plugin is available in `./dist` directory. Install the plugin as shown below and restart grafana. 
+The built plugin is available in `./dist` directory. Copy `./dist` to grafana plugins direcory and restart grafana. 
  
 ```
 cp -r ./dist /var/lib/grafana/plugins
@@ -59,15 +59,15 @@ cp -r ./dist /var/lib/grafana/plugins
 
 ##Configure Grafana
 
-Follow the step by step [instructions](https://github.com/rackerlabs/blueflood-grafana/wiki/Getting-started) to configure 
+Follow the [instructions](https://github.com/rackerlabs/blueflood-grafana/wiki/Getting-started) to configure 
 blueflood or Rackspace-metrics as datasource.
 
 ## Blueflood datasource
 
 [Blueflood](https://github.com/rackerlabs/blueflood) is an open source multi-tenant, distributed metric processing 
-system. This plugin allows you to visualize metrics stored in blueflood thru grafana. 
+system. This plugin allows you to visualize metrics stored in blueflood though grafana. 
 
 ## Rackspace-metrics datasource
 
 Rackspace-metrics is a SaaS offering for storing metrics. This plugin allows you to visualize metrics stored in 
-Rackspace-metrics thru grafana.   
+Rackspace-metrics though grafana.   
