@@ -1,7 +1,7 @@
 # blueflood-grafana
 
 Source code of the blueflood-grafana plugin to use [Blueflood](https://github.com/rackerlabs/blueflood) or 
-Rackspace-metrics as a datasouce with [grafana](http://grafana.org/). This plugin works with Grafana 3.0 and higher.
+Rackspace-metrics as a datasouce with [grafana](http://grafana.org/). This plugin works with Grafana 3.x
 
 
 ## Pre-requisites
@@ -21,13 +21,13 @@ Rackspace-metrics as a datasouce with [grafana](http://grafana.org/). This plugi
         rackerlabs/graphite-api-blueflood-finder
 ```  
 
-* A grafana>=3.0 installation 
+* A grafana 3.x installation 
 
 
 ## Steps to install plugin 
 
 You can build the plugin from source code(described in next section) or you can directly use the transpiled code, 
-built from this source code, which is maintained in a [separate repository](https://github.com/ChandraAddala/blueflood-grafana-plugin).  
+built from this source code, which is maintained in a [separate repository](https://github.com/rackerlabs/blueflood-grafana-plugin).  
 
 Follow the steps below.
 
@@ -65,9 +65,9 @@ blueflood or Rackspace-metrics as datasource.
 ## Blueflood datasource
 
 [Blueflood](https://github.com/rackerlabs/blueflood) is an open source multi-tenant, distributed metric processing 
-system. This plugin allows you to visualize metrics stored in blueflood though grafana. 
+system. This plugin allows you to visualize metrics stored in blueflood via grafana. 
 
 ## Rackspace-metrics datasource
 
 Rackspace-metrics is a SaaS offering for storing metrics. This plugin allows you to visualize metrics stored in 
-Rackspace-metrics though grafana.   
+Rackspace-metrics via grafana.   
