@@ -33,11 +33,11 @@ Follow the steps below.
 
 1. Install the plugin by copying it to /var/lib/grafana/plugins. Grafana plugins are usually located at /var/lib/grafana/plugins 
 but Grafana also provides a way to configure the path of plugins location.
- 
-```sh
-cd /var/lib/grafana/plugins
-git clone https://github.com/rackerlabs/blueflood-grafana-plugin.git
-```
+
+    ```sh
+    cd /var/lib/grafana/plugins
+    git clone https://github.com/rackerlabs/blueflood-grafana-plugin.git
+    ```
 
 2. Restart grafana
 
@@ -46,8 +46,8 @@ git clone https://github.com/rackerlabs/blueflood-grafana-plugin.git
 
 ```
 cd blueflood-grafana
-npm install</br>
-npm install -g grunt-cli</br>
+npm install
+npm install -g grunt-cli
 grunt</br>
 ```
 
