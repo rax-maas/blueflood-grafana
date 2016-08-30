@@ -48,7 +48,7 @@ but Grafana also provides a way to configure the path of plugins location.
 cd blueflood-grafana
 npm install
 npm install -g grunt-cli
-grunt</br>
+grunt
 ```
 
 The built plugin is available in `./dist` directory. Copy `./dist` to grafana plugins direcory and restart grafana. 
