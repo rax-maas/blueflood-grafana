@@ -26,10 +26,8 @@ Rackspace-metrics as a datasouce with [grafana](http://grafana.org/). This plugi
 
 ## Steps to install plugin 
 
-You can build the plugin from source code(described in next section) or you can directly use the transpiled code, 
-built from this source code, which is maintained in a [separate repository](https://github.com/rackerlabs/blueflood-grafana-plugin).  
-
-Follow the steps below.
+### Installing compiled plugin
+To install the compiled plugin, use the compiled code in the [blueflood-grafana-plugin](https://github.com/rackerlabs/blueflood-grafana-plugin) repository.  
 
 1. Install the plugin by copying it to /var/lib/grafana/plugins. Grafana plugins are usually located at /var/lib/grafana/plugins 
 but Grafana also provides a way to configure the path of plugins location.
@@ -42,7 +40,7 @@ but Grafana also provides a way to configure the path of plugins location.
 2. Restart grafana
 
 
-## Steps to build plugin from source code
+### Steps to build plugin from source code
 
 ```
 cd blueflood-grafana
