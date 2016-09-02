@@ -1,6 +1,6 @@
 {
   "name": "Blueflood",
-  "id": "grafana-blueflood-datasource",
+  "id": "rackerlabs-blueflood-datasource",
   "type": "datasource",
 
   "staticRoot": ".",
@@ -27,9 +27,9 @@
       {"name": "Apache License", "url": "https://github.com/rackerlabs/blueflood/blob/master/LICENSE"}
     ],
     "screenshots": [
-      {"name": "Sample graphs", "path": "img/bf_sample_graphs"},
-      {"name": "Datasource configuration", "path": "img/bf_datasource"},
-      {"name": "Creating graph", "path": "img/bf_creating_graph"}
+      {"name": "Sample graphs", "path": "img/bf_sample_graphs.png"},
+      {"name": "Datasource configuration", "path": "img/bf_datasource.png"},
+      {"name": "Creating graph", "path": "img/bf_creating_graph.png"}
     ],
     "version": "0.0.2",
     "updated": "2016-09-31"
