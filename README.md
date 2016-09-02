@@ -23,8 +23,14 @@ Rackspace-metrics as a datasouce with [grafana](http://grafana.org/). This plugi
 
 * A grafana 3.x installation 
 
+## Installation
 
-## Steps to install plugin 
+### Install by using grafana-cli
+
+```sh
+grafana-cli plugins install rackerlabs-blueflood-datasource
+```
+
 
 ### Installing compiled plugin
 To install the compiled plugin, use the compiled code in the [blueflood-grafana-plugin](https://github.com/rackerlabs/blueflood-grafana-plugin) repository.  
